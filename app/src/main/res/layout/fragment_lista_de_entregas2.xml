@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragmentB"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".views.FragmentListaDeEntregas">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/txt_response_soap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/espere" />
+
+    <ListView
+        android:id="@+id/ListView_listado"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.15">
+
+    </ListView>
+
+</LinearLayout>

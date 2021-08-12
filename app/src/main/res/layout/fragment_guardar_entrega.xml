@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".views.FragmentGuardarEntrega">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvGuardarIdCLiente"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/hello_blank_fragment" />
+
+        <TextView
+            android:id="@+id/tvGuardarNombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/hello_blank_fragment" />
+
+        <TextView
+            android:id="@+id/tvGuardarDireccion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/hello_blank_fragment" />
+
+        <TextView
+            android:id="@+id/tvGuardarLocalidad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/hello_blank_fragment" />
+
+        <TextView
+            android:id="@+id/tvGuardarProvincia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/hello_blank_fragment" />
+
+        <TextView
+            android:id="@+id/tvGuardarBultos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/hello_blank_fragment" />
+        <TextView
+            android:id="@+id/tvGuardarBultosNo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/estadoentrega"/>
+        <TextView
+            android:id="@+id/tvGuardarFecha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/hello_blank_fragment" />
+
+        <TextView
+            android:id="@+id/tvGuardarHora"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/hello_blank_fragment" />
+
+        <TextView
+            android:id="@+id/tvGuardarAclaracion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/hello_blank_fragment" />
+
+        <ImageView
+            android:id="@+id/imagenGurdarAclaracion"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/guardar"
+            android:src="@mipmap/ic_launcher_round" />
+
+
+        <ImageView
+            android:id="@+id/imagenGurdarComprobacion"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/guardar"
+            android:src="@mipmap/ic_launcher_round" />
+
+            <Button
+                android:id="@+id/button_guardar_entregado"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/guardar" />
+
+    </LinearLayout>
+
+
+</ScrollView>

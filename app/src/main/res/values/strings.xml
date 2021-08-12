@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">DROGUERIA SUIZA - LOGISTICA</string>
+    <string name="app_nombre">DSuiza logistica</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome!"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- todos los String necesarios para ds
+    -->
+    <string name="login">Login</string>
+    <string name="ingresar">Ingresar</string>
+    <string name="registrarse">Registrarme</string>
+    <string name="tomar_qr">Ver codigo QR</string>
+    <string name="tomar_foto">"Tomar foto"</string>
+
+    <string name="placeholderusuario">Usuario: ej juan123</string>
+    <string name="placeholderpassword">************</string>
+    <string name="placeholderusuarioagain">Ingrese su usuario nuevamente </string>
+    <string name="inputpassword">Ingrese su contraseña: ej j321</string>
+    <string name="passwordagain">Ingrese nuevamente su contraseña</string>
+    <string name="button_firma_y_aclaracion">CONTINUAR SIN FOTO</string>
+    <string name="button_firma_y_aclaracion2">CONTINUAR CON FOTO</string>
+    <string name="input_aclaracion">ACLARACION</string>
+
+    <string name="campo_comentario_no_entregado">No se pudo entregar porque....</string>
+    <string name="button_comentario_no_entregado">Enviar Comentario</string>
+    <string name="boton_entregado">ENTREGADO </string>
+    <string name="boton_no_entregado">NO ENTREGADO</string>
+    <string name="continuar">Continuar</string>
+    <string name="firme">DIBUJE SU FIRMA Y ESCRIBA EN "ACLARACION"</string>
+    <string name="guardar">GUARDAR ENTREGA</string>
+    <string name="espere">POR FAVOR ESPERE</string>
+    <string name="subirplanilla">GUARDAR ENTREGAS</string>
+    <string name="volveraplanillas">REGRESAR</string>
+    <string name="reset">REINICIAR</string>
+    <string name="estadoentrega">¿SE ENTREGO?</string>
+    <string name="observaciones">OBSERVACIONES</string>
+
+    <string name="login6">Login</string>
+    <string name="sin_foto2">CONTINUAR SIN FOTO</string>
+    <string name="sin_foto">SIN FOTO</string>
+    <string name="con_foto">CON FOTO</string>
+    <string name="delete">ELIMINAR</string>
+
+    <string-array name="spinnerEntrega">
+        <item>ENTREGADO</item>
+        <item>SIN ENTREGAR</item>
+    </string-array>
+    <string-array name="spinnerObservacion">
+        <item>ENTREGADO EL TOTAL</item>
+        <item>ENTREGADO DE FORMA PARCIAL</item>
+        <item>SIN ENTREGAR</item>
+    </string-array>
+
+    <string-array name="spinnerMotivos">
+        <item>INGRESE EL MOTIVO</item>
+        <item>FARMACIA CERRADA</item>
+        <item>NO ENCONTRO EL BULTO</item>
+        <item>BULTOS EN MAL ESTADO</item>
+        <item>PEDIDO NO SOLICITADO</item>
+
+    </string-array>
+
+</resources>

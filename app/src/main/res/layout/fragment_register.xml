@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".views.FragmentRegister">
+
+
+    <EditText
+        android:id="@+id/etUser1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:autofillHints="tu nombre"
+        android:hint="@string/placeholderusuario"
+        android:textSize="25sp"/>
+
+    <EditText
+        android:id="@+id/etUser2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:autofillHints="tu nombre"
+        android:hint="@string/placeholderusuarioagain"
+        android:textSize="25sp"/>
+
+    <EditText
+        android:id="@+id/etPass1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:autofillHints="tu contraseña"
+        android:hint="@string/inputpassword"
+        android:textSize="25sp"/>
+
+    <EditText
+        android:id="@+id/etPass2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:autofillHints="tu contraseña"
+        android:hint="@string/passwordagain"
+        android:textSize="25sp"/>
+
+    <Button
+        android:id="@+id/buttonRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/registrarse"
+        android:textSize="25sp"/>
+
+
+    <Button
+        android:id="@+id/buttonVolverALogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:text="@string/continuar"
+        android:textSize="25sp"/>
+</LinearLayout>

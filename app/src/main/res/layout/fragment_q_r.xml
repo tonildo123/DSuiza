@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".views.FragmentQR">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <SurfaceView
+            android:id="@+id/camera_view"
+            android:layout_width="640px"
+            android:layout_height="480px"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textoQR"
+            android:layout_width="match_parent"
+            android:layout_height="100sp"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="@string/espere"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/buttonQR"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="26sp"
+            android:text="@string/continuar" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
